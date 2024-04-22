@@ -1,0 +1,377 @@
+@import url('https://fonts.google.com/specimen/Port+Lligat+Sans?query=Port+Lligat+Sans');
+
+:root{
+    --first-color: #98d8e0;
+    --second-color:#547181;
+    --third-color: #23333b;
+    --fourth-color: #F0FFFF;
+    --fifth-color: 
+    --font--principal: 'Port Lligat Sans';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    box-sizing: border-box;
+
+}
+  /* MENU principal */
+
+  .menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    height: 40px;
+    padding: 0.5%;
+    background-color: #98d8e0;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #547181;
+    font-family: var(--font--principal);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.menu a:hover{
+    color: #547181;;
+}
+
+
+  /*Title*/
+
+
+  .presentation{
+    padding: 5% 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px; 
+}
+
+.presentation__content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.presentation__content h1{
+    font-family: var(--font--principal);
+    color: var(--first-color);
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+
+.presentation__content h2{
+    font-family: var(--font--principal);
+    color: var(--second-color);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.presentation__content p{
+    font-family: var(--font--principal);
+    color: var(--third-color);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.presentation__links{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+  
+.presentation__links__social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background-color: #98d8e0;
+  width: 20%;
+  text-align: center;
+  border-radius: 8px;
+  font-family: var(--font--principal);
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.presentation__links__social:hover {
+background-color: var(--second-color); 
+}
+
+  /*About sobre mim*/
+
+section.about {
+  padding: 5% 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  background-color: #F0FFFF;
+  }
+  
+  .about__title {
+    display: flex;
+    font-family: 'Port Lligat Sans';
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--first-color);
+    align-items: center;
+  }
+  .about__paragraph {
+    font-family: 'Port Lligat Sans';
+    font-size: 20px;
+  }
+  
+/* Skills */
+
+  .skills{
+    padding: 5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    font-family: var(--font--principal);
+    text-align: center;
+}
+
+.skills h2{
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: var(--first-color);
+}
+
+.skills__content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.skills__content h3{
+    font-family: var(--font--principal);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--second-color);
+}
+
+
+  /*Hobbies*/
+
+  .hobbies{
+    padding: 5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #F0FFFF;
+    font-family: var(--font--principal);
+    text-align: center;  
+}
+
+.hobbies h2{
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: var(--first-color);
+}
+
+.hobbies__content{
+    width: 50%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+    
+}
+
+.hobbies__content h3{
+    font-family: var(--font--principal);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--second-color);
+}
+
+  /* Experiência Acadêmica*/
+
+  .formation{
+    padding: 5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    font-family: var(--font--principal);
+    text-align: center;
+}
+
+.formation h2{
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: var(--first-color);
+}
+
+.formation h4{
+    font-size: large;
+    color: var(--second-color);
+    font-weight: 700;
+}
+
+.formation h5{
+    font-size: medium;
+    color: var(--third-color);
+    font-weight: 500;
+}
+.formation__content{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.formation__content__content{
+    width: 50%;
+    gap: 10px;
+}
+  
+  /* projetos*/
+  
+  .projetos {
+    padding: 5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #F0FFFF;
+    font-family: var(--font--principal);
+    text-align: center;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding: 32px 120px 32px 120px;
+  }
+  
+  .projetos h2{
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: var(--first-color);
+}
+
+.projetos h3{
+    font-size: large;
+    color: var(--second-color);
+    font-weight: 700;
+}
+
+.projetos h4{
+    font-size: medium;
+    color: var(--second-color);
+    font-weight: 500;
+}
+.projetos__content{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.projetos__content__content{
+    width: 50%;
+    gap: 10px;
+}
+  
+  
+  /* Seção Contato */
+
+.contact{
+  padding: 5% 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  font-family: var(--font--principal);
+}
+
+.contact h2{
+  font-size: 2.75rem;
+  font-weight: 700;
+  color: var(--second-color);
+}
+
+.contact label{
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--second-color);
+  gap: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid var(--first-color); 
+  border-radius: 10px;
+  box-sizing: border-box;
+  resize: none;
+  font-family: var(--font--principal);
+  font-weight: 500;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: var(--second-color); /* borda ao focar */
+  outline: none; 
+}
+
+input[type="submit"] {
+  background-color: var(--second-color); /* Cor de fundo */
+  color:white; /* Cor do texto */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: var(--font--principal);
+  font-weight: 700;
+}
+
+/* Efeito */
+input[type="submit"]:hover {
+  background-color: var(--first-color); 
+  color: var(--second-color); 
+}
+/* Seção Rodapé */
+
+.footer__rodape {
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font--principal);
+  color: var(--second-color);
+  font-size: 1rem;
+  font-weight: 500;
+;
+}
+  
