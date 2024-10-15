@@ -1,5 +1,11 @@
-Desenvolvi o Projeto Portfolio utilizando HTML, CSS e JavaScript para criar uma plataforma que destacasse minhas habilidades, formação e projetos na área de tecnologia. 
-Organizei minhas competências, detalhei minha formação acadêmica e descrevi em detalhes os projetos que desenvolvi. 
-Além disso, incluí uma seção onde contei um pouco sobre mim, compartilhando informações pessoais e profissionais para oferecer uma visão mais completa da minha trajetória e personalidade. 
+Este projeto foi meu primeiro projeto desenvolvido como parte do desafio da Alura para criar um portfólio que destaque minhas habilidades, formação acadêmica e projetos na área de tecnologia. Utilizando HTML, CSS, e JavaScript, organizei minha trajetória profissional e acadêmica, além de incluir uma seção pessoal sobre mim.
 
-OBS. esse portfólio não é definitivo.
+🚀 Tecnologias Utilizadas
+HTML
+CSS
+JavaScript
+
+🎯 Objetivo
+Desenvolver um portfólio responsivo e profissional.
+
+Ps. estou trabalhando em outro portfólio que pode ser consultado no repositório
